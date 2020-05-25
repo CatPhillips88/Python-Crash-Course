@@ -16,7 +16,7 @@ favourite_number = 10
 
 print(f"Girl, did you know that my favourite number is {favourite_number}")
 
-# alternatively
+# alternatively using str function
 
 favourite_conversion = str(favourite_number)
 
