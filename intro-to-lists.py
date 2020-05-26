@@ -29,14 +29,14 @@ print(f"How are you, {names[3]}?")
 # make a list that stores a number of examples. Use your list to print a series of statements about these
 # items, such as  "I would like to own a Honda motocycle."
 
-cars = ['G-Wagon', 'Range Rover', 'Aventador', 'Tesla']
+cars = ['g-Wagon', 'range rover', 'aventador', 'tesla']
 
 choice = f"I would like to own a"
 
-print(f"{choice} {cars[0]}")
+print(f"{choice} {cars[0].title()}")
 
-print(f"{choice} {cars[1]}")
+print(f"{choice} {cars[1].title()}")
 
-print(f"{choice} {cars[2]}")
+print(f"{choice} {cars[2].title()}")
 
-print(f"{choice} {cars[3]}")
+print(f"{choice} {cars[3].title()}")
