@@ -33,6 +33,39 @@ print(f"Unfortunately {cancelled_guest} cannot make it! You'll be missed!")
 
 guest_list.insert(3, 'Robert Greene')
 
+# print(f"You're invite to the cookout, {guest_list[0]}!")
+
+# print(f"You're invite to the cookout, {guest_list[1]}!")
+
+# print(f"You're invite to the cookout, {guest_list[2]}!")
+
+# print(f"You're invite to the cookout, {guest_list[3]}!")
+
+# print(f"You're invite to the cookout, {guest_list[4]}!")
+
+
+# More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests 
+# to invite to dinner.
+
+# Start with either previous programs. Add a print() call to the end of your program informing people that you
+# found a bigger table.
+ 
+# Use insert() to add one new guest to the beginning of your list
+
+# Use insert() to add one new guest to the middle of your list.
+
+# Use append() to add one new guest to the end of your list.
+
+# Print a new set of invitation messages, one for each person in your list.
+
+print('Hey all, I\'ve found a new place to hold our cookout! It\'s much bigger!!')
+
+guest_list.insert(0, 'Norman Manley')
+
+guest_list.insert(2, 'Tariq Nasheed')
+
+guest_list.append('Vybz Kartel')
+
 print(f"You're invite to the cookout, {guest_list[0]}!")
 
 print(f"You're invite to the cookout, {guest_list[1]}!")
@@ -42,5 +75,17 @@ print(f"You're invite to the cookout, {guest_list[2]}!")
 print(f"You're invite to the cookout, {guest_list[3]}!")
 
 print(f"You're invite to the cookout, {guest_list[4]}!")
+
+print(f"You're invite to the cookout, {guest_list[5]}!")
+
+print(f"You're invite to the cookout, {guest_list[6]}!")
+
+print(f"You're invite to the cookout, {guest_list[7]}!")
+
+
+
+
+
+
 
 
