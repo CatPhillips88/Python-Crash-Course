@@ -123,7 +123,8 @@ print(cancelled_message + cancelled_guest5)
 
 print(cancelled_message + cancelled_guest6)
 
-del guest_list[0:] 
+# start at index 0 to delete list elements
+del guest_list[0:]  
 
 print(guest_list)
 
