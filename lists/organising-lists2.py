@@ -16,4 +16,3 @@ guest_list.append('Vybz Kartel')
 how_many_invited = len(guest_list)
 
 print(f"There are {how_many_invited} guests invited to dinner")
-
