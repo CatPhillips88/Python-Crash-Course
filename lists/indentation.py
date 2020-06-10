@@ -19,3 +19,18 @@ print(f"I like {pizzas[0]}")
 print(f"I like {pizzas[-2]}")
 print(f"I like {pizzas[-1]}")
 print(f"I really love pizza!!")
+
+
+# Animals: Think of a least three different animals that have a common characteristic. Store the names of these animals in a list, 
+# and then use a for loop to print out the name of each animal.
+
+# Modify your program to print a statement about about each animal, such as A dog would make a great pet.
+
+# Add a line at the end of your program stating what these animals have in common. You print a sentence such as Any of these animals 
+# would make a great pet!
+
+four_legged_friends = ['cat', 'dog', 'mini pig', 'lizard']
+
+for four_legged_friend in four_legged_friends:
+    print(f"A {four_legged_friend} would make a great pet")
+print(f"These animals all have four legs, well depending on what {four_legged_friends[3]} you get! They're my favourite!")
