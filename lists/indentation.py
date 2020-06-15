@@ -11,14 +11,14 @@
 
 pizzas = ['Chicago', 'Neopolitan', 'St Louis', 'Detriot', 'Califonia']
 
-for pizza in pizzas:
-    print(f"I like {pizza}")
+for pizza_selection in pizzas:
+    print(f"{pizza_selection} pizza")
 
-print(f"Pizza is my favourite dish of all time")
-print(f"I like {pizzas[0]}")
-print(f"I like {pizzas[-2]}")
-print(f"I like {pizzas[-1]}")
-print(f"I really love pizza!!")
+for pizza in pizzas:
+    print(f"I like {pizza} pizza")
+
+print(f"Pizza is my favourite food!")
+
 
 
 # Animals: Think of a least three different animals that have a common characteristic. Store the names of these animals in a list, 
@@ -30,6 +30,9 @@ print(f"I really love pizza!!")
 # would make a great pet!
 
 four_legged_friends = ['cat', 'dog', 'mini pig', 'lizard']
+
+for animals in four_legged_friends:
+    print(animals)
 
 for four_legged_friend in four_legged_friends:
     print(f"A {four_legged_friend} would make a great pet")
