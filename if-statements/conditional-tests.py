@@ -6,21 +6,21 @@
 
 milkshake = 'Banana'
 
-# print(milkshake == 'Banana')
+print(milkshake == 'Banana')
   
-# print(milkshake != 'Oreo')
+print(milkshake != 'Oreo')
    
-# print(milkshake == 'Strawberry')
+print(milkshake == 'Strawberry')
 
-# print(milkshake != 'Banana')
+print(milkshake != 'Banana')
 
 # USING THE LOWER() METHOD
 
 bridge = 'Tower Bridge'
 
-# print(bridge.lower() == 'tower bridge')
+print(bridge.lower() == 'tower bridge')
  
-# print(bridge.lower() == 'TOWER BRIDGE')
+print(bridge.lower() == 'TOWER BRIDGE')
  
 # NUMERICAL TESTS - EQUALITY & INEQUALITY, GREATER THAN AND LESS THAN, GREATER THAN OR EQUAL TO, LESS THAN OR EQUAL TO
 
