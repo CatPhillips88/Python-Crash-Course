@@ -24,6 +24,7 @@ if alien_color == 'red' or alien_color == 'yellow':
 
 # Write one version of this program that runs the if block and another that runs the else block.
 
+
 alien_color = 'red'
 
 if alien_color == 'green':
