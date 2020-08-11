@@ -7,13 +7,13 @@
 
 # Write one version of this program that passes the if test and another that fails. (The version that fails will have no output)
 
-# alien_color = 'green'
+alien_color = 'green'
 
-# if alien_color == 'green':
-#     print('Player 1 has earned 5 points')
+if alien_color == 'green':
+    print('Player 1 has earned 5 points')
 
-# if alien_color == 'red' or alien_color == 'yellow':
-#     print('Player 1 has earned 5 points')
+if alien_color == 'red' or alien_color == 'yellow':
+    print('Player 1 has earned 5 points')
 
 
 # Alien Colors #2: Choose a color for an alien as you did previously and write an if-else chain.
@@ -30,10 +30,11 @@ if alien_color == 'green':
     print('Player 1 earned 5 points for shooting the alien')
 if alien_color != 'green':
     print('Player 1 earned 10 points')
-    
+
 
 if alien_color == 'green':
     print('Player 1 earned 5 points for shooting the alien')
 else:
     print('Player 1 earned 10 points')
+
 
