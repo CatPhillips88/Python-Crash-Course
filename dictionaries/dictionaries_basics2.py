@@ -5,12 +5,19 @@
 
 
 programming_glossary =  {
-    'Loop': 'Where you can perform a task for values for example in a list, tuple or dictionary',
-    'Tuple': 'A list that essentially cannot be modified',
-    'List': 'A collection of items in a particular order',
-    'If Statement': 'A condition that allows you perform an action depending boolean value being executed',
-    'List Comprehension': 'Refactoring code block into one line. Often seen in lists'
+    'loop': 'Where you can perform a task for values for example in a list, tuple or dictionary',
+    'tuple': 'A list that essentially cannot be modified',
+    'list': 'A collection of items in a particular order',
+    'append': 'A method to add elements to lists',
+    'if statement': 'A condition that allows you perform an action depending boolean value being executed',
+    'list comprehension': 'Refactoring code block into one line. Often seen in lists',
+    'dictionary': 'A collection that contains a series of key-value pairs',
+    'key-value pairs': 'A set of values connected to each other',
+    'comment': 'Represented by the # symbol - Programmers use this to explain a how specific code block works',
+    'range': 'A numerical function used to generate a series of numbers within a defined range'
 }
 
 for term, description in programming_glossary.items():
-    print(f'{term} - {description}')
+    print(f'{term.title()} - {description}')
+
+ 
