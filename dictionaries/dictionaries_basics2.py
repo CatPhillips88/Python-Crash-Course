@@ -47,3 +47,29 @@ for river in rivers.keys():
 
 for river in rivers.values():
     print(river.title())
+
+
+# Polling: Use previous code from favourite programming languages (within book) -
+
+# Make a list of people who should take the favourite languages poll. Include some names that are
+# already in the dictionary and some that are not.
+
+# Loop through the list who should take the poll. If they have already taken the poll, print a message
+# thanking them for responding.
+# If they have not yet taken the poll, print a messgae inviting them to take the poll.
+
+favourite_languages = {
+    'jon': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    'shona': 'scala'
+}
+
+people = ['edward', 'shona', 'pia', 'mario']
+
+for person in favourite_languages.keys():
+    if person in people:
+        print(f'{person.title()}, thank you for taking the poll!')
+    else:
+        print(f'{person.title()}, please take the poll')
