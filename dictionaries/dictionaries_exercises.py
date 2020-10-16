@@ -18,8 +18,6 @@ person2 = {
 
 people = [person1, person2]
 
-
-
 for person in people:
     print(f'\n{person["first_name"].title()}\'s profile:')
    
@@ -31,6 +29,20 @@ for person in people:
     print(age)
     print(city)
 
-    
-        
+# Pets: Create a few dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal 
+# and the owner's name. Store the dictionaries in a list called pets. Next, loop through your list and as you do, print everything
+# you know about each pet.
+
+cat = {'breed': 'british shorthair', 'animal': 'cat', 'owner': 'quentin'}
+
+dog = {'breed': 'boston terrier', 'animal': 'dog', 'owner': 'kate'}
+
+iguana = {'breed': 'green', 'animal': 'iguana', 'owner': 'sam'}
+
+turtle = {'breed': 'red eared slider', 'animal': 'turtle', 'owner': 'arizona'}
+
+pets = [cat, dog, iguana, turtle]
+
+for pet in pets:
+    print(f'\n{pet["owner"].title()} has a {pet["breed"].title()} {pet["animal"]}')
         
