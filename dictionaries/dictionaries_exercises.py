@@ -45,4 +45,18 @@ pets = [cat, dog, iguana, turtle]
 
 for pet in pets:
     print(f'\n{pet["owner"].title()} has a {pet["breed"].title()} {pet["animal"]}')
-        
+
+
+# Favourite Places:  Make a dictionary called favourite_places. Think of three names to use as keys in the dictionary,
+# and store one to three favourite places for each person. To make this exercise a bit more interestng,
+# ask some friends to name a few of their favourite places. Loop through the dictionary, and print
+# each person's name and their favourite places.
+
+favourite_places = {
+  'maria': 'st pauls cathedral',
+  'richard': 'up at the o2',
+  'zara': 'sky garden'
+}
+
+for person, place in favourite_places.items():
+  print(f'{person.title()}\'s favourite place: {place.title()}')
