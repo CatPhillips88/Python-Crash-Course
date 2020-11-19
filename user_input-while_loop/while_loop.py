@@ -19,7 +19,7 @@ while topping != 'quit':
     toppings.append(topping)
 
     if topping != 'quit':
-        print('THE PIZZA MASTERPIECE WITH THE FOLLOWING TOPPINGS:')
+        print('YOUR PIZZA MASTERPIECE WITH THE FOLLOWING TOPPINGS:')
         for ingredient in toppings:
             print(ingredient)
 
