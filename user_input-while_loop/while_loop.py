@@ -16,7 +16,7 @@ toppings = []
 
 while topping != 'quit':
     topping = input("What toppings would you like on your pizza? When finished enter 'quit'. ")
-    toppings.append(topping)
+    toppings.append(topping) 
 
     if topping != 'quit':
         print('YOUR PIZZA MASTERPIECE WITH THE FOLLOWING TOPPINGS:')
@@ -24,6 +24,21 @@ while topping != 'quit':
             print(ingredient)
 
 
+# Movie Tickets: A movie theater charges different ticket prices depending on a person's age. If a person is under the age of 3,
+# the ticket is free. If they are between 3 and 12, the ticket is $10; and if they are over age 12, the ticket is $15. Write a loop
+# in which you ask users their age, and then tell them the cost of their movie ticket.
+
+while True:
+    age = int(input('How old are you? '))
+    if age < 3:
+        print('Movie tickets are free')
+        break
+    elif age < 12:
+        print('Movie tickets are $10')
+        break
+    elif age > 12:
+        print('Movie tickets are $15')
+        break
 
    
 
