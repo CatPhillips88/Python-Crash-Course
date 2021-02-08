@@ -47,4 +47,24 @@ for sandwich in finished_sandwiches:
     print(sandwich.title())
 
 
+# Dream Vacation: Write a program that polls users about their dream vacation. Write a prompt and include a block of code that prints the
+# results of the poll.
 
+poll_responses = {}
+
+active = True
+
+while active:
+    name = input('What\'s your name? ')
+    dream_vacation = input('If you could visit one place in the world, where would you go? ')
+
+    poll_responses[name] = dream_vacation
+
+    repeat = input('Would you like to add another dream vacation? (yes/no) )')
+
+    if repeat == 'no':
+        active = False
+
+print('HERE ARE A LIST OF POPULAR DREAM VACATIONS:')
+for dream_vacation in poll_responses.values():
+    print(f'{dream_vacation.title()}')
