@@ -39,8 +39,6 @@ print(f'Sharon\'s favourite number: {favourite_numbers["Sharon"]}')
 print(f'Lilly\'s favourite number: {favourite_numbers["Lilly"]}')
 
 
-
-
 # Glossary: A Python dictionary can be used to model an actual dictionary. However, to avoid confusion
 # let's call it a glossary.
 
