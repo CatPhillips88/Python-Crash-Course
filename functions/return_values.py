@@ -85,9 +85,9 @@ while True:
 
    
     artist_profile = make_album2(a_name, a_title, num_songs)
+    print(artist_profile)
 
 for album_features, album_info in artist_profile.items():
-
     if album_features == 'album tracks':
         print(f'{album_features.title()}: {album_info}')
     else:
